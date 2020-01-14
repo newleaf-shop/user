@@ -42,10 +42,11 @@ class Index extends UserBase
     }
 
     /**
-     * 商户登录
+     * 用户登录
      * @param Request $request
      * @return array|false|string
-     * itwri 2019/9/7 15:31
+     * @throws \Exception
+     * itwri 2020/1/10 14:19
      */
     function login(Request $request)
     {
